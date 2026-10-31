@@ -277,6 +277,7 @@ func onMachine(home, cfg string) []*Agent {
 		alma(),
 		cindy(),
 		aionui(),
+		pai(home),
 		lody(home),
 	}, ompProfiles(home)...)
 }
